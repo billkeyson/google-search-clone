@@ -1,0 +1,7 @@
+.ImagesResults{
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}

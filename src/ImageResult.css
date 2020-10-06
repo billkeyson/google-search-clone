@@ -1,0 +1,41 @@
+.ImageResult{
+    border-radius: 10px;
+    padding: 1px 8px;
+    width: 300px;
+    /* height: 150px; */
+    margin: 10px 5px;
+    transition: transform ease-out .3s;
+    overflow: hidden;
+    text-overflow: inherit;
+}
+
+.ImageResult:hover{
+    transform: scale(0.9);
+    box-shadow: 0 1px 6px rgba(32,33,36,0.28);;
+
+}
+.ImageResult>img{
+    width: 270px;
+    height: 180px;
+    width: 100% !important;
+    object-fit: contain;
+
+}
+.ImageResult>a{
+    text-decoration: none;
+    display: inline-block;
+    color: #9aa0a6;;
+    font-weight: 200;
+    font-family: Roboto,HelveticaNeue,Arial,sans-serif;
+}
+.ImageResult_name{
+color: #3c4043;
+font-family: Roboto-Medium,Roboto,arial,sans-serif;
+font-size: 12px;
+letter-spacing: 0.2;
+}
+
+
+.ImageResult_website{
+    font-size: smaller;
+}

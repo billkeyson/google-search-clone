@@ -1,0 +1,27 @@
+.result_header_subheader{
+    display: flex;
+    padding-left: 80px;
+    border-bottom: 1px solid #dfe1e5;
+    margin-bottom: 11px;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    width: 100%
+}
+
+.result_header_subheader_icon{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    color: #5f6368;
+    text-align: center;
+    margin: 0px 10px;
+    font-size: small;
+    cursor: pointer;
+}
+.result_header_subheader_icon:hover{
+    border-bottom: 4px solid #2a67e0;
+}
+
+.result_header_subheader_icon_active{
+    border-bottom: 4px solid #2a67e0;
+}

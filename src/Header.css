@@ -1,0 +1,19 @@
+.header{
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    padding-right: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color:#fff;
+    width: 100%;
+}
+.header >.header_options{
+    padding: 8px;
+}
+.header >.header_options >a {
+    text-decoration: none;
+    font-weight: 400;
+    
+}

@@ -1,0 +1,12 @@
+.searchResult_info{
+    display: flex;
+    flex: 0.7;
+    width: 60%;
+    margin-left: 10%;
+}
+.imageSearchResult{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 60px
+}
+/* .resultSearchPage{display: flex;} */
