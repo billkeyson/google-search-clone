@@ -12,7 +12,7 @@ const ImageSearchHook =(query=null) =>{
         const  fetchSearch =async ()=>{
             fetch(googleSearchUrl)
             .then(dataResult=>dataResult.json())
-            .then(dataResult=>setData(dataResult))
+            .then(dataResult=>setData(dataResult)).catch(a=>console.log(a,"Error"))
         }
         fetchSearch()
        

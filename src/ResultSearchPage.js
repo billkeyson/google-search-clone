@@ -34,11 +34,11 @@ function ResultSearchPage() {
         {isAll ? (
           <>
             <p className="searchResult_info">
-              About {data && data?.searchInformation.totalResults} results (
-              {data && data?.searchInformation.searchTime} seconds)
+              About {data && data?.searchInformation?.totalResults} results (
+              {data && data?.searchInformation?.searchTime} seconds)
             </p>
             {data &&
-              data.items.map((result, index) => (
+              data?.items?.map((result, index) => (
                 <SearchResult key={index} result={result} />
               ))}
           </>
