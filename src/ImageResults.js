@@ -10,7 +10,7 @@ function ImageResults({query}) {
     return (
         <div className="ImagesResults">
             {
-                data?.items.map( (image,index)=><ImageResult key={index} imageresp = {image}/>)
+               data && data?.items?.map( (image,index)=><ImageResult key={index} imageresp = {image}/>)
             }
             
         </div>
